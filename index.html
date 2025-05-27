@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Esta es mi primera página de HTML</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>Página Personal</title>
 <link rel="stylesheet" href="CSS3/Estilos.css">
 <style>
-    h1{color:burlywood;}
-    #primerparrafo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-    #primerparrafo{color: green;}
+    .border{
+    border: 10px solid gray;
+    background-color: gray;}
+    h1{color:rgb(19, 19, 19);}
+    #primerparrafo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: darkblue;text-align: left;}
     h1:hover{color: red;}
+    body{background-color: rgb(214, 211, 188);}
 </style>
 </head>
-<body>
-<h1 style="color: gray;">Mis cosas favoritas</h1>
-<p id="primerparrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio labore natus, quibusdam rem magni porro. Ex, quisquam? Pariatur sunt ullam ad quo sequi dolores accusantium quod quidem eius in. Alias.</p>
-<p style="color: blueviolet;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos esse consectetur quas laborum ipsam corporis deserunt illum in nam atque saepe facere maiores voluptatum, at, blanditiis aliquam, quia mollitia debitis!</p>
-<p class="exile-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sit facere quidem iure mollitia illum tenetur officiis fugiat repellendus, voluptatum error aspernatur praesentium. Vitae quia, itaque laborum accusantium officia nemo.</p>
-<p style="font-family: ex;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti libero possimus ipsam laudantium labore autem veritatis illum cumque neque, aliquid velit fuga numquam, doloremque explicabo dolor? Debitis, voluptates culpa!</p>
+<body style="text-align: center;">
+<h1>Mi Página Personal</h1>
+<img src="Img/PFP.jpg" alt="Foto de Perfil" width="150">
+<p id="primerparrafo">Mi nombre es Diego Alberto Gómez Villalobos, tengo 23 años de edad y nací en Monterrey, N.L. México.</p>
+<p id="primerparrafo" style="color: black;">Mi frase favorita es: "Entre más negra la noche, más brillan las estrellas".</p>
 <br>
-<h1>Título sin color</h1>
+<h2>Estas son algunas de mis cosas favoritas:</h2>
+<hr>
+<table border="1" style="margin-left: auto; border: 10px solid gray;margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td><a href="Academico.html"><b>Academico</b></a></td>
+                    <td class="border"></td>
+                    <td><a href="Artistas.html"><b>Artistas</b></a></td>
+                </tr>
+                <tr>
+                    <td><a href="Familia.html"><b>Familia</b></a></td>
+                    <td class="border"></td>
+                    <td><a href="Hobbits.html"><b>Hobbits</b></a></td>
+                </tr>
+                <tr>
+                    <td><a href="Noticias.html"><b>Noticias</b></a></td>
+                    <td class="border"></td>
+                    <td><a href="Academico/ToolDevSoftware.html"><b>Herramientas de Desarrollo de Software</b></a></td>
+                </tr>
+            </tbody>
+        </table>   
+<hr>
 <br>
-<a href="Academico/ToolDevSoftware.html"><b>Herramientas de Desarrollo de Software</b></a>
+<h2>Esta es mi información de contacto:</h2>
+<table border="1" style="margin-left: auto; border: 10px solid gray;margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td><img src="Img/FB.png" alt="FB" width="32"></td>
+                    <td class="border"></td>
+                    <td><img src="Img/X.png" alt="X" width="32"></td>
+                    <td class="border"></td>
+                    <td><img src="Img/Gmail.png" alt="Gmail" width="32"></td>
+                </tr>
+                 <tr>
+                    <td><a href="fb.com/GarfierdhTai">fb.com/GarfierdhTai</a></td>
+                    <td class="border"></td>
+                    <td><a href="x.com/garfierdhtai"><b>x.com/garfierdhtai</b></a></td>
+                    <td class="border"></td>
+                    <td><a href="mailto:gomezvillalbosdiego2001@gmail.com?Subject=Hola Diego!"><b>gomezvillalbosdiego2001@gmail.com</b></a></td>
+                </tr>
+            </tbody>
+        </table>   
 <hr>
-<a href="Academico.html"><b>Academico</b></a>
-<hr>
-<a href="Artistas.html"><b>Artistas</b></a>
-<hr>
-<a href="Familia.html"><b>Familia</b></a>
-<hr>
-<a href="Hobbits.html"><b>Hobbits</b></a>
-<hr>
-<a href="Noticias.html"><b>Noticias</b></a>
 </body>
 </html>
